@@ -1,0 +1,6 @@
++
+..\book\tea.OBJ
+$SCW$.EXE
+NUL
+ c:\wing\lib\wing32.lib glaux.lib tk.lib winmesa.lib  KERNEL32.LIB GDI32.LIB USER32.LIB
+tea-ms.def

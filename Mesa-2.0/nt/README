@@ -1,0 +1,7 @@
+
+These files are the Windows NT driver for Mesa, written by Mark Leaming
+(mark@rsinc.com).
+
+This code hasn't been integrated in Mesa 1.2.8 yet so some hacking will
+be needed to get it working.  This is a temporary situation.
+

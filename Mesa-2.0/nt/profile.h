@@ -1,0 +1,60 @@
+// profile.h
+
+#pragma warning( disable : 4244 )
+
+typedef struct	_profile{
+	GLuint buffer_sizeCount;
+	GLdouble buffer_sizeTime;
+	GLuint choose_line_functionCount;
+	GLdouble choose_line_functionTime;
+	GLuint choose_points_functionCount;
+	GLdouble choose_points_functionTime;
+	GLuint choose_polygon_functionCount;
+	GLdouble choose_polygon_functionTime;
+	GLuint clearCount;
+	GLdouble clearTime;
+	GLuint clear_colorCount;
+	GLdouble clear_colorTime;
+	GLuint clear_indexCount;
+	GLdouble clear_indexTime;
+	GLuint fast_flat_rgb_lineCount;
+	GLdouble fast_flat_rgb_lineTime;
+	GLuint fast_flat_rgb_polygonCount;
+	GLdouble fast_flat_rgb_polygonTime;
+	GLuint fast_rgb_pointsCount;
+	GLdouble fast_rgb_pointsTime;
+	GLuint flushCount;
+	GLdouble flushTime;
+	GLuint GetPaletteCount;
+	GLdouble GetPaletteTime;
+	GLuint read_color_pixelsCount;
+	GLdouble read_color_pixelsTime;
+	GLuint read_color_spanCount;
+	GLdouble read_color_spanTime;
+	GLuint read_index_pixelsCount;
+	GLdouble read_index_pixelsTime;
+	GLuint read_index_spanCount;
+	GLdouble read_index_spanTime;
+	GLuint set_bufferCount;
+	GLdouble set_bufferTime;
+	GLuint set_colorCount;
+	GLdouble set_colorTime;
+	GLuint set_indexCount;
+	GLdouble set_indexTime;
+	GLuint write_color_pixelsCount;
+	GLdouble write_color_pixelsTime;
+	GLuint write_color_spanCount;
+	GLdouble write_color_spanTime;
+	GLuint write_index_pixelsCount;
+	GLdouble write_index_pixelsTime;
+	GLuint write_index_spanCount;
+	GLdouble write_index_spanTime;
+	GLuint write_monocolor_pixelsCount;
+	GLdouble write_monocolor_pixelsTime;
+	GLuint write_monocolor_spanCount;
+	GLdouble write_monocolor_spanTime;
+	GLuint write_monoindex_pixelsCount;
+	GLdouble write_monoindex_pixelsTime;
+	GLuint write_monoindex_spanCount;
+	GLdouble write_monoindex_spanTime;
+}MESAPROF;

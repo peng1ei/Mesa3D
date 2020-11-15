@@ -1,0 +1,20 @@
+82568
+e:\mesa\demos\test0-ms.prj
+BOUNC-MS.OPN
+novcs
+test0-ms.def
+4
+801941220
+0 -1 0 0 0 ..\include\gl\glu.h
+0 0 0 0 0 test0.c
+0 0 0 0 0 test0-ms.def
+0 0 0 0 0 glaux.lib
+0 0 0 0 0 tk.lib
+0 0 0 0 0 wing32.lib
+0 0 0 0 0 winmesa.lib
+0 -1 -1 0 0 ..\include\glaux.h
+0 0 -1 0 0 ..\include\gl/gl.h
+0 -1 0 0 0 ..\include\gl\gl.h
+0 -1 0 0 0 d:\sc\include\stdio.h
+0 -1 0 0 0 d:\sc\include\string.h
+0 -1 0 0 0 d:\sc\include\stdlib.h

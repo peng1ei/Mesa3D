@@ -1,0 +1,6 @@
+..\src-tk\tk-wndws.OBJ+
+..\demos\wave.OBJ
+$SCW$.EXE
+NUL
+ c:\wing\lib\wing32.lib winglu.lib winmesa.lib  KERNEL32.LIB GDI32.LIB USER32.LIB
+wave-ms.DEF

@@ -1,0 +1,8 @@
+tea.OBJ: \
+	tea.c \
+	..\include\gl/gl.h \
+	..\include\glaux.h
+..\book\tea.OBJ: \
+	..\book\tea.c \
+	..\include\gl/gl.h \
+	..\include\glaux.h

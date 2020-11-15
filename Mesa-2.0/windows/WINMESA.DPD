@@ -1,0 +1,380 @@
+\mesa\windows\accum.OBJ: \
+	..\src\accum.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\dd.h \
+	..\src\list.h \
+	..\src\macros.h
+\mesa\windows\alpha.OBJ: \
+	..\src\alpha.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\list.h \
+	..\src\macros.h
+\mesa\windows\attrib.OBJ: \
+	..\src\attrib.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\list.h \
+	..\src\macros.h
+\mesa\windows\bitmap.OBJ: \
+	..\src\bitmap.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\feedback.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\pb.h \
+	..\src\pixel.h
+\mesa\windows\blend.OBJ: \
+	..\src\blend.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\dd.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\pb.h
+\mesa\windows\bresenha.OBJ: \
+	..\src\bresenha.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h
+\mesa\windows\clip.OBJ: \
+	..\src\clip.c \
+	..\include\gl/gl.h \
+	..\src\clip.h \
+	..\src\config.h \
+	..\src\context.h \
+	..\src\macros.h \
+	..\src\vb.h \
+	..\src\xform.h
+\mesa\windows\context.OBJ: \
+	..\src\context.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\dd.h \
+	..\src\eval.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\pb.h
+\mesa\windows\copypixe.OBJ: \
+	..\src\copypixe.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\dd.h \
+	..\src\depth.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\span.h \
+	..\src\stencil.h
+\mesa\windows\depth.OBJ: \
+	..\src\depth.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\list.h \
+	..\src\macros.h
+\mesa\windows\dither.OBJ: \
+	..\src\dither.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h
+\mesa\windows\draw.OBJ: \
+	..\src\draw.c \
+	..\src\clip.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\context.h \
+	..\src\draw.h \
+	..\src\feedback.h \
+	..\src\fog.h \
+	..\src\light.h \
+	..\src\lines.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\pb.h \
+	..\src\points.h \
+	..\src\polygons.h \
+	..\src\texture.h \
+	..\src\vb.h \
+	..\src\xform.h
+\mesa\windows\drawpixe.OBJ: \
+	..\src\drawpixe.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\feedback.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\pixel.h \
+	..\src\span.h \
+	..\src\stencil.h
+\mesa\windows\enable.OBJ: \
+	..\src\enable.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\depth.h \
+	..\src\dither.h \
+	..\src\draw.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\stencil.h
+\mesa\windows\eval2.OBJ: \
+	..\src\eval2.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\draw.h \
+	..\src\list.h \
+	..\src\macros.h
+\mesa\windows\feedback.OBJ: \
+	..\src\feedback.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\feedback.h \
+	..\src\list.h \
+	..\src\macros.h
+\mesa\windows\fog.OBJ: \
+	..\src\fog.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\list.h \
+	..\src\macros.h
+\mesa\windows\get.OBJ: \
+	..\src\get.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\dd.h \
+	..\src\list.h \
+	..\src\macros.h
+\mesa\windows\interp.OBJ: \
+	..\src\interp.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\macros.h
+\mesa\windows\light.OBJ: \
+	..\src\light.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\xform.h
+\mesa\windows\lines.OBJ: \
+	..\src\lines.c \
+	..\src\bresenha.h \
+	..\include\gl/gl.h \
+	..\src\context.h \
+	..\src\config.h \
+	..\src\dd.h \
+	..\src\feedback.h \
+	..\src\interp.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\pb.h \
+	..\src\vb.h
+\mesa\windows\list.OBJ: \
+	..\src\list.c \
+	..\src\accum.h \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\attrib.h \
+	..\src\bitmap.h \
+	..\src\copypixe.h \
+	..\src\draw.h \
+	..\src\drawpixe.h \
+	..\src\enable.h \
+	..\src\eval.h \
+	..\src\feedback.h \
+	..\src\fog.h \
+	..\src\light.h \
+	..\src\lines.h \
+	..\src\logic.h \
+	..\src\macros.h \
+	..\src\pixel.h \
+	..\src\points.h \
+	..\src\polygons.h \
+	..\src\texture.h \
+	..\src\xform.h
+\mesa\windows\logic.OBJ: \
+	..\src\logic.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\dd.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\pb.h
+\mesa\windows\misc.OBJ: \
+	..\src\misc.c \
+	..\src\accum.h \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\depth.h \
+	..\src\dd.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\stencil.h
+\mesa\windows\pb.OBJ: \
+	..\src\pb.c \
+	..\src\alpha.h \
+	..\include\gl/gl.h \
+	..\src\blend.h \
+	..\src\context.h \
+	..\src\config.h \
+	..\src\dd.h \
+	..\src\depth.h \
+	..\src\dither.h \
+	..\src\fog.h \
+	..\src\logic.h \
+	..\src\pb.h \
+	..\src\scissor.h \
+	..\src\stencil.h
+\mesa\windows\pixel.OBJ: \
+	..\src\pixel.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\span.h
+\mesa\windows\points.OBJ: \
+	..\src\points.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\dd.h \
+	..\src\feedback.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\pb.h \
+	..\src\span.h \
+	..\src\vb.h
+\mesa\windows\polygons.OBJ: \
+	..\src\polygons.c \
+	..\src\bresenha.h \
+	..\include\gl/gl.h \
+	..\src\context.h \
+	..\src\config.h \
+	..\src\dd.h \
+	..\src\feedback.h \
+	..\src\interp.h \
+	..\src\lines.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\points.h \
+	..\src\span.h \
+	..\src\vb.h
+\mesa\windows\quickpol.OBJ: \
+	..\src\quickpol.c \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\dd.h
+\mesa\windows\readpixe.OBJ: \
+	..\src\readpixe.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\depth.h \
+	..\src\dd.h \
+	..\src\feedback.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\span.h \
+	..\src\stencil.h
+\mesa\windows\scissor.OBJ: \
+	..\src\scissor.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\macros.h
+\mesa\windows\span.OBJ: \
+	..\src\span.c \
+	..\src\alpha.h \
+	..\include\gl/gl.h \
+	..\src\blend.h \
+	..\src\context.h \
+	..\src\config.h \
+	..\src\depth.h \
+	..\src\dither.h \
+	..\src\dd.h \
+	..\src\fog.h \
+	..\src\logic.h \
+	..\src\scissor.h \
+	..\src\span.h \
+	..\src\stencil.h \
+	..\src\texture.h
+\mesa\windows\stencil.OBJ: \
+	..\src\stencil.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\pb.h \
+	..\src\stencil.h
+\mesa\windows\texture.OBJ: \
+	..\src\texture.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\pb.h
+\mesa\windows\vertex.OBJ: \
+	..\src\vertex.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\draw.h \
+	..\src\list.h \
+	..\src\macros.h
+\mesa\windows\wmesa.OBJ: \
+	..\src\wmesa.c \
+	d:\sc\include\win32\pshpack4.h \
+	d:\sc\include\win32\poppack.h \
+	d:\sc\include\win32\pshpack1.h \
+	d:\sc\include\win32\pshpack2.h \
+	d:\sc\include\win32\pshpack2.h \
+	d:\sc\include\win32\rpcdce.h \
+	d:\sc\include\win32\rpcdcep.h \
+	d:\sc\include\win32\rpcnsi.h \
+	d:\sc\include\win32\rpcnterr.h \
+	d:\sc\include\win32\pshpack8.h \
+	d:\sc\include\win32\rpcnsip.h \
+	d:\sc\include\win32\cguid.h \
+	..\include\gl\wmesa.h \
+	..\include\gl\gl.h \
+	..\src\bresenha.h \
+	..\include\gl/gl.h \
+	..\src\context.h \
+	..\src\config.h \
+	..\src\dd.h \
+	..\src\quickpol.h \
+	..\src\xform.h \
+	c:\wing\include\wing.h \
+	..\src\vb.h
+\mesa\windows\xform.OBJ: \
+	..\src\xform.c \
+	..\src\context.h \
+	..\include\gl/gl.h \
+	..\src\config.h \
+	..\src\depth.h \
+	..\src\dd.h \
+	..\src\list.h \
+	..\src\macros.h \
+	..\src\stencil.h

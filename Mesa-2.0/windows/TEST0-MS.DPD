@@ -1,0 +1,4 @@
+test0.OBJ: \
+	test0.c \
+	\mesa\include\glaux.h \
+	\mesa\include\gl/gl.h

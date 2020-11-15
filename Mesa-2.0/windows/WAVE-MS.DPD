@@ -1,0 +1,38 @@
+..\src-tk\tk-wndws.OBJ: \
+	..\src-tk\tk-wndws.c \
+	\mesa\include\tk.h \
+	\mesa\include\gl/gl.h \
+	\mesa\include\gl\wmesa.h \
+	\mesa\include\gl\gl.h
+wave.OBJ: \
+	wave.c \
+	\mesa\include\tk.h \
+	\mesa\include\gl/gl.h \
+	d:\sc\include\win32\pshpack4.h \
+	d:\sc\include\win32\poppack.h \
+	d:\sc\include\win32\pshpack1.h \
+	d:\sc\include\win32\pshpack2.h \
+	d:\sc\include\win32\pshpack2.h \
+	d:\sc\include\win32\rpcdce.h \
+	d:\sc\include\win32\rpcdcep.h \
+	d:\sc\include\win32\rpcnsi.h \
+	d:\sc\include\win32\rpcnterr.h \
+	d:\sc\include\win32\pshpack8.h \
+	d:\sc\include\win32\rpcnsip.h \
+	d:\sc\include\win32\cguid.h
+..\demos\wave.OBJ: \
+	..\demos\wave.c \
+	\mesa\include\tk.h \
+	\mesa\include\gl/gl.h \
+	d:\sc\include\win32\pshpack4.h \
+	d:\sc\include\win32\poppack.h \
+	d:\sc\include\win32\pshpack1.h \
+	d:\sc\include\win32\pshpack2.h \
+	d:\sc\include\win32\pshpack2.h \
+	d:\sc\include\win32\rpcdce.h \
+	d:\sc\include\win32\rpcdcep.h \
+	d:\sc\include\win32\rpcnsi.h \
+	d:\sc\include\win32\rpcnterr.h \
+	d:\sc\include\win32\pshpack8.h \
+	d:\sc\include\win32\rpcnsip.h \
+	d:\sc\include\win32\cguid.h

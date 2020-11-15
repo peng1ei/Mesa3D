@@ -1,0 +1,24 @@
+82568
+E:\MESA\windows\winglu.prj
+WINMESA.OPN
+novcs
+WINGLU.DEF
+22
+801547206
+0 0 0 0 0 ..\src-glu\glu.c
+0 0 0 0 0 ..\src-glu\mipmap.c
+0 0 0 0 0 ..\src-glu\nurbs.c
+0 0 0 0 0 ..\src-glu\project.c
+0 0 0 0 0 ..\src-glu\quadric.c
+0 0 0 0 0 ..\src-glu\tess.c
+0 -1 0 0 0 ..\include\gl\gl.h
+0 -1 0 0 0 ..\include\gl\glu.h
+0 -1 -1 0 0 ..\src-glu\glup.h
+0 -1 -1 0 0 ..\src-glu\tess.h
+0 0 -1 0 0 ..\include\gl/glu.h
+0 0 -1 0 0 ..\include\gl/gl.h
+0 -1 0 0 0 d:\sc\include\math.h
+0 -1 0 0 0 d:\sc\include\stdio.h
+0 -1 0 0 0 d:\sc\include\stdlib.h
+0 -1 0 0 0 d:\sc\include\assert.h
+0 -1 0 0 0 d:\sc\include\string.h

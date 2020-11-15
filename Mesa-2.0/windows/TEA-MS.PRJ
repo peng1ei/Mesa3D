@@ -1,0 +1,18 @@
+82568
+e:\mesa\windows\tea-ms.prj
+TEA-MS.OPN
+novcs
+tea-ms.def
+4
+802297140
+0 0 0 0 0 tea-ms.def
+0 -1 0 0 0 ..\include\gl\gl.h
+0 -1 0 0 0 ..\include\gl\glu.h
+0 0 0 0 0 c:\wing\lib\wing32.lib
+0 0 -1 0 0 ..\include\gl/gl.h
+0 -1 -1 0 0 ..\include\glaux.h
+0 -1 0 0 0 d:\sc\include\stdlib.h
+0 0 0 0 0 ..\book\tea.c
+0 0 0 0 0 glaux.lib
+0 0 0 0 0 tk.lib
+0 0 0 0 0 winmesa.lib

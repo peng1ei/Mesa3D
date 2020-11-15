@@ -1,0 +1,31 @@
+\mesa\windows\glu.OBJ: \
+	..\src-glu\glu.c \
+	..\src-glu\glup.h \
+	..\include\gl/gl.h \
+	..\include\gl/glu.h
+\mesa\windows\mipmap.OBJ: \
+	..\src-glu\mipmap.c \
+	..\src-glu\glup.h \
+	..\include\gl/gl.h \
+	..\include\gl/glu.h
+\mesa\windows\nurbs.OBJ: \
+	..\src-glu\nurbs.c \
+	..\src-glu\glup.h \
+	..\include\gl/gl.h \
+	..\include\gl/glu.h
+\mesa\windows\project.OBJ: \
+	..\src-glu\project.c \
+	..\src-glu\glup.h \
+	..\include\gl/gl.h \
+	..\include\gl/glu.h
+\mesa\windows\quadric.OBJ: \
+	..\src-glu\quadric.c \
+	..\src-glu\glup.h \
+	..\include\gl/gl.h \
+	..\include\gl/glu.h
+\mesa\windows\tess.OBJ: \
+	..\src-glu\tess.c \
+	..\src-glu\tess.h \
+	..\src-glu\glup.h \
+	..\include\gl/gl.h \
+	..\include\gl/glu.h

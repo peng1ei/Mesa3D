@@ -1,0 +1,20 @@
+
+The Mondello only ever went to Rev B before the team moved onto the
+Laguna-3D chipset.  The Rev B chipset had a few bugs remaining to be
+worked out.
+
+One of the bits in the z-buffer doesn't work.  This can be worked around,
+but as a result, the z-buffer is only 15 bits deep.  
+
+The PCI bus transfers are VERY slow.  I have been told that there are some 
+bus arbitration problems with the Rev B chipset.  This, of course, slows 
+down the hardware rendering considerably.  Presumably, this will be fixed in 
+the next revision.  I know it is fixed in the current Laguna product.  
+
+Some of the include files are in ../include/mondello.
+
+The driver may sometimes exit in a not-so-nice way.  Typing reset;setfont
+usually takes care of such problems.  
+
+-Peter McDermott
+ pmcdermo@cs.utexas.edu

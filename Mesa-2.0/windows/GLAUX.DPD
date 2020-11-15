@@ -1,0 +1,66 @@
+\mesa\windows\glaux.OBJ: \
+	..\src-aux\glaux.c \
+	..\include\tk.h \
+	..\include\gl/gl.h \
+	d:\sc\include\win32\pshpack4.h \
+	d:\sc\include\win32\poppack.h \
+	d:\sc\include\win32\pshpack1.h \
+	d:\sc\include\win32\pshpack2.h \
+	d:\sc\include\win32\pshpack2.h \
+	d:\sc\include\win32\rpcdce.h \
+	d:\sc\include\win32\rpcdcep.h \
+	d:\sc\include\win32\rpcnsi.h \
+	d:\sc\include\win32\rpcnterr.h \
+	d:\sc\include\win32\pshpack8.h \
+	d:\sc\include\win32\rpcnsip.h \
+	d:\sc\include\win32\cguid.h \
+	..\include\glaux.h
+\mesa\windows\teapot.OBJ: \
+	..\src-aux\teapot.c \
+	..\include\glaux.h \
+	..\include\gl/gl.h
+\mesa\windows\shapes.OBJ: \
+	..\src-aux\shapes.c \
+	..\include\gl/gl.h \
+	..\include\glaux.h \
+	..\src-aux\3d.h
+\mesa\windows\xform.OBJ: \
+	..\src-aux\xform.c \
+	..\src-aux\3d.h
+\mesa\windows\font.OBJ: \
+	..\src-aux\font.c \
+	..\include\tk.h \
+	..\include\gl/gl.h \
+	d:\sc\include\win32\pshpack4.h \
+	d:\sc\include\win32\poppack.h \
+	d:\sc\include\win32\pshpack1.h \
+	d:\sc\include\win32\pshpack2.h \
+	d:\sc\include\win32\pshpack2.h \
+	d:\sc\include\win32\rpcdce.h \
+	d:\sc\include\win32\rpcdcep.h \
+	d:\sc\include\win32\rpcnsi.h \
+	d:\sc\include\win32\rpcnterr.h \
+	d:\sc\include\win32\pshpack8.h \
+	d:\sc\include\win32\rpcnsip.h \
+	d:\sc\include\win32\cguid.h \
+	..\include\glaux.h
+\mesa\windows\image.OBJ: \
+	..\src-aux\image.c \
+	..\include\tk.h \
+	..\include\gl/gl.h \
+	d:\sc\include\win32\pshpack4.h \
+	d:\sc\include\win32\poppack.h \
+	d:\sc\include\win32\pshpack1.h \
+	d:\sc\include\win32\pshpack2.h \
+	d:\sc\include\win32\pshpack2.h \
+	d:\sc\include\win32\rpcdce.h \
+	d:\sc\include\win32\rpcdcep.h \
+	d:\sc\include\win32\rpcnsi.h \
+	d:\sc\include\win32\rpcnterr.h \
+	d:\sc\include\win32\pshpack8.h \
+	d:\sc\include\win32\rpcnsip.h \
+	d:\sc\include\win32\cguid.h \
+	..\include\glaux.h
+\mesa\windows\vect3d.OBJ: \
+	..\src-aux\vect3d.c \
+	..\src-aux\3d.h

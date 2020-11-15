@@ -1,0 +1,23 @@
+This directory contains Microsoft Visual C++ makefiles for Mesa.  Contributed
+by Roger Cottam (roger@sense8.com)  Contact him if you have questions.
+
+
+From Barry Roberts regarding updates for 1.2.8:
+
+The makefiles are hand-modified from Roger Cottam's.  My Developer's
+Studio GPF'ed trying to load them in once I had started hand
+tweaking them.
+
+I used MSVC 4.0 under Windows 95.  I haven't tried building release
+mode libraries.
+
+To create the makefiles for the other samples (spin, gears, shadow), I
+copied the bounce makefile and did a global search and replace.  So the
+dependencies are probably wrong.
+
+Some of the demos still include tk.h which has been changed to gltk.h.
+
+
+Barry Roberts
+blroberts@xactware.com
+

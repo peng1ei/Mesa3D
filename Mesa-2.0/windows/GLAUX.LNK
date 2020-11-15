@@ -1,0 +1,12 @@
++
+\mesa\windows\glaux.OBJ+
+\mesa\windows\teapot.OBJ+
+\mesa\windows\shapes.OBJ+
+\mesa\windows\xform.OBJ+
+\mesa\windows\font.OBJ+
+\mesa\windows\image.OBJ+
+\mesa\windows\vect3d.OBJ
+\mesa\windows\$SCW$.LIB
+NUL
+  
+glaux.DEF

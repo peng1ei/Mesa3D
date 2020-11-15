@@ -1,0 +1,12 @@
+
+The makefiles in this directory and the src/wmesa.c file were contributed
+by Barry Roberts (blroberts@xactware.com) for Mesa 2.0.
+
+The makefiles in the windows/ directory are out of date with respect to 2.0.
+
+I'd really appreciate it if someone would combine the Windows NT code
+in the nt/ directory with the wmesa.c code, if that's possible to make
+one good driver for Windows NT and 95.
+
+-Brian
+

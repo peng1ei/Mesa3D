@@ -1,0 +1,9 @@
+winglu.LIB
+-+\mesa\windows\glu.OBJ&
+-+\mesa\windows\mipmap.OBJ&
+-+\mesa\windows\nurbs.OBJ&
+-+\mesa\windows\project.OBJ&
+-+\mesa\windows\quadric.OBJ&
+-+\mesa\windows\tess.OBJ
+NUL
+winglu.LIB

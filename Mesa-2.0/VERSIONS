@@ -1,0 +1,272 @@
+
+Mesa Version History
+====================
+
+1.0 beta   February 1995
+    Initial release
+
+1.1 beta   March 4, 1995
+    Many improvements:
+	- faster point and line drawing (2x faster)
+	- more systems supported, better Makefiles
+	- many small bug fixes
+	- pseudo-GLX functions added
+	- GLUT support
+	- new implementation of evaluators (eval2.c)
+	- Renamed lib*.a files to avoid collisions
+
+1.1.1 beta   March 7, 1995
+    Reverted from eval2.c to eval.c due to FPE on Linux
+    more speed improvements
+    more Makefile changes
+
+1.1.2 beta   March 14, 1995
+    Using eval2.c again
+    more FPE-prevention checks (0-length normals are OK)
+    a few small bug fixes
+    much faster pixel logic ops!
+    faster transformation arithmetic
+    implementation of SGI's blending extensions
+    glXUseXFont implemented
+    added MESA_DEBUG environment variable support
+
+1.1.3 beta   March 31, 1995
+    gluScaleImage() and gluBuild2DMipMaps() implemented
+    Mesa widgets for Xt/Motif
+    more bug fixes
+    blendEXT demos
+    added environment variables for selecting visuals
+    almost all GLUT demos work correctly now
+    faster X device driver functions
+
+1.1.4 beta   April 20, 1995
+    Bug fixes:
+	- missing #define SEEK_SET in src-tk/image.c
+	- compile glShadeModel into display lists
+	- fixed pow() domain error in src/light.c
+	- fixed "flickering bitmaps" in double buffer mode
+	- fixed tk.h and aux.h for C++
+	- state of LIGHT_MODEL_LOCAL_VIEWER was inverted
+    New features:
+	- MUCH, MUCH nicer dithering in 8-bit RGB mode
+	- updated widgets and widget demos
+	- Implemented GLXPixmap functions
+	- Added GLU 1.1 and GLX 1.1 functions
+	- Changed the X/Mesa interface API, more versatile
+	- Implemented gluPartialDisk()
+
+1.2   May 22, 1995
+    Bug fixes:
+	- IRIX 4.x makefile problem
+	- modified tk to share root colormap as needed
+	- gluLookAt normalization problem
+	- suppress Expose, NoExpose events in swapbuffers
+	- glBitmap() and glDrawPixels() clipping
+    New features:
+	- GL_BLEND, GL_MODULATE, GL_DECAL, and GL_REPLACE_EXT texture
+	      modes implemented
+	- texture maps stored more efficiently
+	- texture maps can be compiled into display lists
+	- Bogdan Sikorski's GLU polygon tesselation code
+	- Linas Vepstas's sweep and extrusion library
+	- glXCreateContext()'s shareList parameter works as it's supposed to.
+	      XMesaCreateContext() updated to accept a shareList parameter too.
+	- Mesa can be compiled with real OpenGL .h files
+	- MESA_BACK_BUFFER environment variable
+	- better GLX error checking
+
+1.2.1   June 22, 1995
+    Bug fixes:
+	- X/Mesa double buffer window resize crash
+	- widgets now pass PointerMotion events
+	- X/Mesa incorrect default clear color and drawing color
+	- more robust X MIT-SHM support in X/Mesa
+	- glTexImage( format=GL_LUMINANCE ) didn't work
+	- GL_LINE mode polygons with line width > 1.0 could cause a crash
+	- numerous feedback bugs
+	- glReadPixels() from depth buffer was wrong
+	- error prone depth and stencil buffer allocation
+    New features:
+	- Preliminary Microsoft Windows driver
+	- Implemented a number of missing functions: glEvalCoord[12][df]v(),
+	    glGet...(), etc.
+	- Added a few missing symbols to gl.h and glu.h
+	- Faster rendering of smooth-shaded, RGBA, depth-buffered polygons.
+	- Faster rendering of lines when width=2.0
+	- Stencil-related functions now work in display lists
+    Changes:
+	- renamed aux.h as glaux.h (MS-DOS names can't start with aux)
+	- most filenames are in 8.3 format to accomodate MS-DOS
+	- use GLubytes to store arrays of colors instead of GLints
+
+1.2.2   August 2, 1995
+    New features:
+	- texture mapped points and lines
+	- NURBS! (but not 100% complete)
+	- viewports may safely extend beyond window boundaries
+	- MESA_PRIVATE_CMAP environment variable
+	- Grayscale X display support
+	- two new demos:  demos/gears.c and demos/shadow.c
+	- MachTen for Macintosh configuration
+    Bug fixes:
+	- glGet*(GL_DEPTH_BITS) returned bytes, not bits
+	- point, line, and bitmap rasterization suffered from roundoff errors
+	- fixed a division by zero error in line clippping
+	- occasional wrong default background color really fixed!
+	- glDepthFunc(GL_ALWAYS) with glDepthMask(GL_FALSE) didn't work
+	- gluBuild2DMipmaps malloc problem fixed
+	- view volume clipping of smooth shaded lines resulted in bad colors
+    Changes:
+	- new visual selection method in glXChooseVisual()
+	- improved GLU quadric functions
+	- call XSync for glFinish and XFlush for glFlush
+	- glVertex() calls now use a function pointer to avoid conditionals
+	- removed contrib directory from Mesa tar file (available on ftp site)
+	- AIX shared library support
+	- Removed GLUenum type as it's not in OpenGL
+
+1.2.3   September 26, 1995
+    New features:
+	- Mesa header files now equivalent to SGI OpenGL headers
+	- Support for HP's Color Recovery dithering displays
+	- Faster vertex transformation
+	- Faster raster operations into X windows under certain conditions
+	- New configurations:  HP w/ shared libs, Ultrix w/ GCC, Data General
+	- 4-bit visuals now supported
+    Bug fixes:
+	- glScissor bug fixed
+	- round-off errors in clipping lines against clip planes fixed
+	- byte swapping between hosts and display servers implemented
+	- glGetError() can be called without a current rendering context
+	- problem with accidentally culled polygons is fixed
+	- fixed some widget compilation problems
+
+1.2.4   November 17, 1995
+    New features:
+	- More speed improvements (lighting, fogging, polygon drawing)
+	- Window system and OS-independent off-screen rendering
+	- Preliminary Fortran bindings
+	- glPolygonOffsetEXT implemented
+	- glColorMask and glIndexMask now fully implemented
+	- glPixelZoom implemented
+	- display lists fully implemented
+	- gamma correction
+	- dithering in 8-bit TrueColor/DirectColor visuals
+    Changes:
+	- Improved device driver interface
+	- tk.h renamed to gltk.h to avoid conflicts with Tcl's Tk
+	- Dithering support moved from core into device driver
+    Bug fixes:
+	- glEnable/Disable( GL_LIGHTING ) didn't always take effect
+	- glReadPixels byte swapping was broken
+	- glMaterial with pname==GL_AMBIENT_AND_DIFFUSE was broken
+	- duplicate glColor4b() prototype in GL/gl.h removed
+	- stripes in wave -ci demo fixed
+	- GL_LINEAR_MIPMAP_NEAREST had wrong value
+	- bugs in HP Color Recovery support fixed
+	- fixed bug when blending lines, points, bitmaps outside of window
+
+1.2.5   November 30, 1995
+    New Features:
+	- updated MS Windows driver
+	- new implementation of StaticGray/GrayScale visual support
+    Bug fixes:
+	- pixelzooming with gamma correction or blending didn't work
+	- HP color recovery visual wasn't being picked by glXChooseVisual
+	- glClear didn't always observe glColorMask changes
+	- olympic and offset demos didn't compile on some Suns
+	- texcoord clamping wasn't correct
+	- a polygon optimization introduced an occasional sampling problem
+
+1.2.6   January 26, 1996
+    New Features:
+	- faster line and polygon rendering under certain conditions.  See
+	  Performance Tips 9 and 10 in README
+	- profiling
+	- lighting is a bit faster
+	- better perspective corrected texture mapping
+	- Amiga AmiWin (X11) support
+	- preliminary Linux SVGA driver
+    Changes:
+	- now using a 16-bit depth buffer, faster, smaller
+	- GL_NORMALIZE is disabled by default
+    Bug fixes:
+	- projective texture mapping
+	- fixed a memory leak in the context destroy function
+	- GL_POLYGON with less than 3 vertices caused a crash
+	- glGet*() returned wrong result for GL_INDEX_MODE
+	- reading pixels from an unmapped X window caused a BadMatch error
+
+1.2.7   March 5, 1996
+    New:
+	- faster lighting
+	- faster 16-bit TrueColor rendering on Linux
+	- faster 32-bit TrueColor rendering on Linux, HP, IBM
+	- non-depth-buffered XImage polygons are faster
+	- vertex array extension
+	- software alpha planes
+	- updated Macintosh driver
+	- new NeXT driver
+	- GLU quadric functions generate texture coordinates
+	- reflect.c demo - reflective, textured surface demo
+    Changes:
+	- gamma correction code moved into the X driver for better performance
+    Bug fixes:
+	- multiple glClipPlane()'s didn't work reliably
+	- glPolygonMode() didn't always work
+	- glCullFace( GL_FRONT_AND_BACK ) didn't work
+	- texture mapping with gamma correction was buggy
+	- floating point exceptions in texture coordinate interpolation
+	- XImage byte swapping didn't always work
+	- polygon edge flags weren't always used correctly
+
+1.2.8   May 22, 1996
+    New:
+	- overlay planes on X servers with the SERVER_OVERLAY_VISUALS property
+	- better monochrome output
+	- more IRIX 6.x configurations
+	- more robust RGB mode color allocation
+	- added MESA_XSYNC environment variable
+	- GLX_MESA_pixmap_colormap and GLX_EXT_visual_info extensions
+	- GL_MESA_window_pos extension
+	- faster glReadPixels/glDrawPixels for GL_DEPTH and GL_UNSIGNED_SHORT
+	  and GL_UNSIGNED_INT
+        - driver for prototype Cirrus Mondello 3-D board
+	- updated AmigaDOS driver
+        - a few small speed optimizations in polygon rendering
+    Changes:
+	- internal device driver interface modified to simplify device
+	  driver implementations and to support hardware Z buffers
+	- several changes to the X/Mesa interface (xmesa.h)
+    Bug fixes:
+	- fixed pow(0,0) domain error triggered on some systems
+	- glStencilClear() in a display list caused an infinite loop
+	- glRasterPos*() was sometimes off by +/-0.5 in X and Y
+	- color masking and blending were performed in wrong order
+	- auxSolidCylinder() sometimes drew a wire-frame cylinder
+	- fixed file writing bug in osdemo.c
+	- pixel mapping didn't always work
+	- the GL_GEQUAL stencil func didn't work
+	- the GL_INVERT stencil op didn't work
+	- the stencil write mask didn't work
+	- glPush/PopAttrib() didn't do enough error checking
+	- glIsList() didn't always work correctly
+
+2.0  October 10, 1996
+    New:
+	- Implementats OpenGL 1.1 API functions
+	- all texture filtering modes supported (mipmapping)
+	- faster texture mapping, see Performance Tip 11 in README
+	- antialiased RGB points
+	- X support for line and polygon stippling
+	- glDrawBuffer( GL_FRONT_AND_BACK ) works
+	- util/ directory of useful stuff
+	- demos/texobj demo of texture objects
+    Changes:
+	- major internal changes for thread-safeness
+	- new device driver interface
+	- MESA_ALPHA env variable removed
+	- triangle rasterizer replaces polygon rasterizer
+    Bug fixes:
+	- glPopAttrib() bug
+	- glDrawBuffer(GL_NONE) works now

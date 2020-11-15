@@ -1,0 +1,18 @@
+\mesa\windows\tkwndws.OBJ: \
+	..\src-tk\tkwndws.c \
+	d:\sc\include\win32\pshpack4.h \
+	d:\sc\include\win32\poppack.h \
+	d:\sc\include\win32\pshpack1.h \
+	d:\sc\include\win32\pshpack2.h \
+	d:\sc\include\win32\pshpack2.h \
+	d:\sc\include\win32\rpcdce.h \
+	d:\sc\include\win32\rpcdcep.h \
+	d:\sc\include\win32\rpcnsi.h \
+	d:\sc\include\win32\rpcnterr.h \
+	d:\sc\include\win32\pshpack8.h \
+	d:\sc\include\win32\rpcnsip.h \
+	d:\sc\include\win32\cguid.h \
+	..\include\tk.h \
+	..\include\gl/gl.h \
+	..\include\gl\wmesa.h \
+	..\include\gl\gl.h

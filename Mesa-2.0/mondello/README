@@ -1,0 +1,27 @@
+Cirrus Logic CLGD547x - Mondello 3-D accelerator driver for Mesa
+
+This is the first installment in hopefully a series of drivers for Mesa
+that interface directly to low-level 3-D hardware.  The Cirrus Logic 
+Mondello card will never be released.  However, the technology behind the
+card is being integrated into the upcoming Laguna-3D chipset. Hopefully, 
+I (Peter McDermott) will have the time to rewrite this code for the Laguna-3D
+whence it arrives on the market.
+
+I hope that other people looking to interface 3-D hardware to Mesa will
+look at this code to get some ideas as to where to head in their efforts.
+
+If you are interested in interfacing 3-D hardware to Mesa and XFree86
+(meaning you want to write code, not just talk about it) the XFree86-3D 
+mailing list run by Steven Parker (sparker@taz.cs.utah.edu) may be joined
+by sending a message to majordomo@mania.cs.utah.edu with the word subscribe
+followed by your name in the message.  The has been very quiet lately,
+but has the potential to become quite active as more 3D hardware comes onto
+the market.
+
+Please see the CREDITS file for thank-yous.  Please see the NOTES file for
+miscellaneous information.
+
+Good Luck!
+
+-Peter McDermott
+ pmcdermo@cs.utexas.edu

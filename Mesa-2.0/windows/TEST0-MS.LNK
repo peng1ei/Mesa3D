@@ -1,0 +1,6 @@
++
+test0.OBJ
+$SCW$.EXE
+NUL
+ glaux.lib tk.lib wing32.lib winmesa.lib  KERNEL32.LIB GDI32.LIB USER32.LIB
+test0-ms.def

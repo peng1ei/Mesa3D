@@ -1,0 +1,6 @@
++
+..\book\robot.OBJ
+$SCW$.EXE
+NUL
+ c:\wing\lib\wing32.lib glaux.lib tk.lib winglu.lib winmesa.lib  KERNEL32.LIB GDI32.LIB USER32.LIB
+robot-ms.def

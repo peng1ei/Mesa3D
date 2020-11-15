@@ -1,0 +1,52 @@
+Credit where credit is due:
+
+I'd just like to mention the names of a few people who made this possible,
+since they at least deserve that.
+
+
+Brian Paul      For writing Mesa (the OpenGL-alike) and hence making the world
+                a better place for graphics progamming.
+		(brianp@ssec.wisc.edu)
+
+Robin Cutshaw   Robin (unknowingly) lent me his PCI access functions from
+                XFree86 (xc/programs/Xserver/hw/xf86/etc/scanpci.c) to 
+                help in finding the Mondello card.
+		(robin@xfree86.org)
+
+Tom Dye         Tom is the head of the Austin Design Center for Cirrus Logic
+                and was nice enough to lend some of his hardware to the 
+                University of Texas for us to work with.
+
+Cirrus Logic    (see Tom Dye)
+
+Goran Devic     For giving us his code for the Mondello card and being 
+                exceptionally helpful in answering questions about the
+                hardware.  (Goran works at Cirrus-Austin)
+
+Don Fussell     For heading up this project.
+ 		(fussell@cs.utexas.edu)
+
+Linux people    For writing such a great operating system.
+
+Zeyd M. Ben-Halim and Ers S. Raymond for ncurses, from which I stripped some
+of the code in the src-tk2 directory.
+
+/***************************************************************************
+*                            COPYRIGHT NOTICE                              *
+****************************************************************************
+*                ncurses is copyright (C) 1992-1995                        *
+*                          Zeyd M. Ben-Halim                               *
+*                          zmbenhal@netcom.com                             *
+*                          Eric S. Raymond                                 *
+*                          esr@snark.thyrsus.com                           *
+*                                                                          *
+*        Permission is hereby granted to reproduce and distribute ncurses  *
+*        by any means and for any fee, whether alone or as part of a       *
+*        larger distribution, in source or in binary form, PROVIDED        *
+*        this notice is included with any such distribution, and is not    *
+*        removed from any of its header files. Mention of ncurses in any   *
+*        applications linked with it is highly appreciated.                *
+*                                                                          *
+*        ncurses comes AS IS with no warranty, implied or expressed.       *
+*                                                                          *
+***************************************************************************/

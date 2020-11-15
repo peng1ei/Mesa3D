@@ -1,0 +1,83 @@
+                   Notes for the Alpha Windows Mesa Driver
+                   ---------------------------------------
+                By: Mark E. Peterson (markp@ic.mankato.mn.us)
+
+
+This driver written for Mesa 1.2.x.  Also see the windows2/README file
+for Mesa 2.0 information  [-BP].
+
+
+
+Introduction
+------------
+
+The Windows Mesa driver enables Mesa to run on all 32 bit incarnations of
+Microsoft Windows. In addition, a Windows version of the TK package (which
+also enables the aux package to function) is also provided. 
+
+Both RGB and indexed color models are supported.
+
+I term the Windows functionality as "Alpha" because it has not been tested
+to my satisfaction yet. Please, feel free to contact me regarding this 
+driver. I am also a member of the Mesa mailing list and will respond to 
+messages there. 
+
+Additional Software
+-------------------
+
+In order to compile and run Mesa applications you will need the Microsoft
+WinG libraries. WinG is a free add-on to Windows that enables fast indexed 
+mode graphics programming. You can obtain WinG from the WINMM forum on 
+Compuserve or ftp.microsoft.com.
+
+If you wish to run Mesa apps on Windows 3.x you will also need to obtain 
+Microsofts Win32s extension for Windows. Win32s is freely available many 
+places on the Internet and Compuserve.
+
+Compiling Mesa and samples
+--------------------------
+
+The Windows version of Mesa was developed using Symantec C++ 7.0, the 
+Symantec projects and makefiles should be included with this distribution.
+To compile Mesa for Symantec C++ open and build winmesa.prj, tk.prj, 
+glaux.prj, and winglu.prj all found in the \MESA\WINDOWS directory. These
+projects will build static libraries which are linked in to the various
+demo projects in the same directory.
+
+Several (but not all) of the examples that ship with Mesa have been set up
+and projects are supplied in this distribution. In general compile the 
+samples with the same settings as the libraries. Also if a sample is 
+animated you may need to insert a call to InvalidateRect (see 
+\mesa\demos\bounce.c). 
+
+The following #defines are used to compile the Windows version of Mesa.
+
+__WIN32__       - Indicates compilation for 32 bit Windows. 
+__SYMANTEC_BUGS - The Symantec compiler appears to dislike files containing
+                  only a global variable definition. This define gets us 
+                  around this bug. (see dd.c and vb.c)
+
+At various times I have also had Mesa compiled with Borland C++ 4.5. For the
+libraries, use the target expert to set up a WIN32, static library project.
+For the demos use the target expert to set up WIN32 console mode apps.
+
+Windows specific source files in the distribution
+-------------------------------------------------
+
+\mesa\src\wmesa.c
+\mesa\include\gl\wmesa.h
+\mesa\src-tk\tkwndws.c
+
+To Do
+-----
+
+- Optimize the driver.
+- Test
+- Produce release versions of the makefiles
+- Produce the static libs as DLLs (possibly as drop in replacements for the
+  NT OpenGL DLLs ???)
+- Set up projects for the rest of the demos.
+- Produce profile statistics vs. the NT implementation of GL.
+- Look into hardware acceleration (e.g. Matrox Impression, Millenium).
+
+
